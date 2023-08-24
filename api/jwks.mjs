@@ -1,6 +1,6 @@
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 
-module.exports = async (req, res) => {
+export default async (req, res) => {
   try {
     const response = await fetch('https://b597-64-124-137-130.ngrok-free.app/realms/myrealm/protocol/openid-connect/certs', {
       headers: {
