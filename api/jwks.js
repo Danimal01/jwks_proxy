@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 
 module.exports = async (req, res) => {
   try {
-    const response = await fetch('https://b597-64-124-137-130.ngrok-free.app/realms/myrealm/protocol/openid-connect/certs', {
+    const response = await fetch('https://c241-64-124-137-130.ngrok-free.app/realms/myrealm/protocol/openid-connect/certs', {
       headers: {
         'User-Agent': 'Custom-UA-For-Ngrok',
         'ngrok-skip-browser-warning': 'true'
